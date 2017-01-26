@@ -61,6 +61,8 @@ extern int hw_config(int nState);
 extern int is_hw_ready();
 extern int chipset_ver;
 
+extern unsigned char vnd_local_bd_addr[6];
+
 /******************************************************************************
 **  Variables
 ******************************************************************************/
